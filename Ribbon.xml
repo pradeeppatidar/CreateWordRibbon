@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabAddIns">
+        <group id="GroupID" label="TestGroup">
+          <button id="Button1" imageMso="MessageHeaderToggle" label="Button1" screentip="This is the description of button!" onAction="HandleEntryPoint" keytip="B" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
